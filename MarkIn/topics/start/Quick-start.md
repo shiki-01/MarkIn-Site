@@ -14,13 +14,13 @@ switcher-label: Language
 
 ## Create a new file {switcher-key="English"}
 
-1. Open the menu [<img src="%lucide%/menu.svg" alt="Create a new file" />] and select <code>File > New</code>.
+1. Open the menu <img src="%lucide%/menu.svg" alt="Create a new file" /> and select <code>File > New</code>.
 2. Enter the file name and press <code>Enter</code>.
 3. The file is created and the editor opens.
 
 ## 新規ファイルの作成 {switcher-key="Japanese"}
 
-1. メニュー [<img src="%lucide%/menu.svg" alt="Create a new file" />] を開いて、<code>File > New</code> を選択します。
+1. メニュー <img src="%lucide%/menu.svg" alt="Create a new file" /> を開いて、<code>File > New</code> を選択します。
 2. ファイル名を入力して、<code>Enter</code> キーを押します。
 3. ファイルが作成され、エディタが開きます。
 
@@ -57,13 +57,13 @@ switcher-label: Language
 <tabs>
     <tab id="menubar-en" title="Menu bar">
         <ol>
-            <li>Open the menu [<img src="%lucide%/menu.svg" alt="Create a new file" />] and select <code>File > Save</code>.</li>
+            <li>Open the menu <img src="%lucide%/menu.svg" alt="Create a new file" /> and select <code>File > Save</code>.</li>
             <li>The file is saved.</li>
         </ol>
     </tab>
     <tab id="toolbar-en" title="Toolbar">
         <ol>
-            <li>Click the save icon on the toolbar [<img src="%lucide%/save.svg" alt="Save the file" />].</li>
+            <li>Click the save icon on the toolbar <img src="%lucide%/save.svg" alt="Save the file" />.</li>
             <li>The file is saved.</li>
         </ol>
     </tab>
@@ -74,13 +74,13 @@ switcher-label: Language
 <tabs>
     <tab id="menubar-ja" title="メニューバー">
         <ol>
-            <li>メニュー [<img src="%lucide%/menu.svg" alt="新規ファイルを作成する" />] を開いて、 <code>File > Save</code> を選択します。</li>
+            <li>メニュー <img src="%lucide%/menu.svg" alt="新規ファイルを作成する" /> を開いて、 <code>File > Save</code> を選択します。</li>
             <li>ファイルが保存されます。</li>
         </ol>
     </tab>
     <tab id="toolbar-ja" title="ツールバー">
         <ol>
-            <li>ツールバーの保存アイコン [<img src="%lucide%/save.svg" alt="ファイルを保存する" />] をクリックします。</li>
+            <li>ツールバーの保存アイコン <img src="%lucide%/save.svg" alt="ファイルを保存する" /> をクリックします。</li>
             <li>ファイルが保存されます。</li>
         </ol>
     </tab>

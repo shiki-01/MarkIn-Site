@@ -7,7 +7,7 @@
 }
 
 * {
-    transition: background-color,color 0.2s;
+    transition: background-color,color 0.1s;
 }
 
 .title__content, .sub-title, .article__p.child, .article__p {
@@ -15,17 +15,47 @@
     transition: color 0.1s;
 }
 
+.title__content::before {
+    content: '#';
+    height: 41px;
+    position: absolute;
+    left: -1.2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--wh-color-bg-main);
+    transition: color 0.1s;
+}
+
+.title__content:hover::before {
+    color: var(--wh-color-primary-light-theme);
+}
+
+.article__h1 .title__content::before {
+    content: none
+}
+
 .app__sidebar {
     border-right: none;
 }
 
 .table__wrapper {
-    border-radius: .8rem;
+    border-radius: .5rem;
     overflow: hidden;
 }
 
+img[src*="lucide"] {
+    background-color: var(--wh-color-white);
+    border-radius: .2rem;
+    padding: .2rem;
+}
+
 .navigation-links__next-icon {
-    background-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-right.svg");
+    mask-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-right.svg");
+    background-color: var(--wh-color-text-main);
+    -webkit-mask-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-right.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    transition: background-color 0.1s;
 }
 
 .navigation-links__next-icon path {
@@ -33,9 +63,65 @@
 }
 
 .navigation-links__prev-icon {
-    background-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-left.svg");
+    mask-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-left.svg");
+    background-color: var(--wh-color-text-main);
+    -webkit-mask-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-left.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    transition: background-color 0.1s;
 }
 
 .navigation-links__prev-icon path {
     display: none;
+}
+
+.breadcrumb__item:after {
+    content: '>';
+    right: -2px;
+    font-weight: 700;
+}
+
+._contentWrapper_1t4sa2o_59 {
+    border-radius: .5rem;
+}
+
+._contentWrapper_1t4sa2o_59 span {
+    font-weight: 300;
+}
+
+footer {
+    background-color: var(--wh-color-bg-main);
+}
+
+.app__footer {
+    background-color: var(--wh-color-bg-main);
+}
+
+footer .footer__copyright, footer .footer__powered, footer .footer__powered a {
+    color: var(--wh-color-text-main);
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--wh-color-bg-main);
+    margin: 5px 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--wh-color-grey-30);
+    border-radius: 6px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    background-clip: padding-box;
+    transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--wh-color-primary-light-theme);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    background-clip: padding-box;
 }

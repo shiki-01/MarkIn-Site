@@ -2,6 +2,10 @@
 switcher-label: Language
 ---
 
+<link-summary>
+    how to install MarkIn
+</link-summary>
+
 # Install / インストール
 
 ## Prerequisites {switcher-key="English"}
