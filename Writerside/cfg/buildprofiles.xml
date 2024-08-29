@@ -11,4 +11,7 @@
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
+    <footer>
+        <copyright>© 2025-2025 shiki-01 and other contributors</copyright>
+    </footer>
 </buildprofiles>
