@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
+<vars>
+    <var name="product" value="MarkIn" />
+    <var name="latest-version" value="0.0.1" />
+
+    <var name="lucide" value="https://unpkg.com/lucide-static@latest/icons" />
+</vars>

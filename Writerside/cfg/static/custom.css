@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+:root {
+    --wh-color-primary-light-theme: #1a90c2;
+    --wh-color-primary-dark-theme: #1a90c2;
+}
+
+* {
+    transition: background-color,color 0.2s;
+}
+
+.title__content, .sub-title, .article__p.child, .article__p {
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: color 0.1s;
+}
+
+.app__sidebar {
+    border-right: none;
+}
+
+.table__wrapper {
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.navigation-links__next-icon {
+    background-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-right.svg");
+}
+
+.navigation-links__next-icon path {
+    display: none;
+}
+
+.navigation-links__prev-icon {
+    background-image: url("https://unpkg.com/lucide-static@latest/icons/chevron-left.svg");
+}
+
+.navigation-links__prev-icon path {
+    display: none;
+}

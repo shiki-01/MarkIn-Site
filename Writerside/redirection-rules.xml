@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="47283c09">
+        <description>Created after removal of "Overview" from MarkIn</description>
+        <accepts>Overview.html</accepts>
+    </rule>
+    <rule id="4b9b7374">
+        <description>Created after removal of "Core Consepts / コアコンセプト" from MarkIn</description>
+        <accepts>Core-Consepts-コアコンセプト.html</accepts>
+    </rule>
+</rules>
